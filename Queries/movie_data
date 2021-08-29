@@ -1,3 +1,9 @@
 SELECT * FROM movies;
 
 select count(*) from ratings;
+
+DROP TABLE ratings;
+DROP TABLE movies;
+
+select count(*) from ratings;
+select count(*) from movies;
